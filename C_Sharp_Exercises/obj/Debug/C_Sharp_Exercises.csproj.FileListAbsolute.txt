@@ -1,0 +1,7 @@
+E:\c#\github projects\C_Sharp_Exercises\C_Sharp_Exercises\C_Sharp_Exercises\bin\Debug\C_Sharp_Exercises.exe.config
+E:\c#\github projects\C_Sharp_Exercises\C_Sharp_Exercises\C_Sharp_Exercises\bin\Debug\C_Sharp_Exercises.exe
+E:\c#\github projects\C_Sharp_Exercises\C_Sharp_Exercises\C_Sharp_Exercises\bin\Debug\C_Sharp_Exercises.pdb
+E:\c#\github projects\C_Sharp_Exercises\C_Sharp_Exercises\C_Sharp_Exercises\obj\Debug\C_Sharp_Exercises.csprojAssemblyReference.cache
+E:\c#\github projects\C_Sharp_Exercises\C_Sharp_Exercises\C_Sharp_Exercises\obj\Debug\C_Sharp_Exercises.csproj.CoreCompileInputs.cache
+E:\c#\github projects\C_Sharp_Exercises\C_Sharp_Exercises\C_Sharp_Exercises\obj\Debug\C_Sharp_Exercises.exe
+E:\c#\github projects\C_Sharp_Exercises\C_Sharp_Exercises\C_Sharp_Exercises\obj\Debug\C_Sharp_Exercises.pdb
