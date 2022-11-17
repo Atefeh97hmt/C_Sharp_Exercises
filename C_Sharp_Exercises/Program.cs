@@ -4,20 +4,36 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C_Sharp_Exercises
+//namespace C_Sharp_Exercises
+//{
+//    class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            // The code provided will print ‘Hello World’ to the console.
+//            // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
+//            Console.WriteLine("Hello World!");
+//            Console.ReadKey();
+
+//            // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
+//        }
+//    }
+//}
+
+////////////////////////Add two numbers///////////////////////////
+namespace MyExercises
 {
-    class Program
+    class sum
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            // The code provided will print ‘Hello World’ to the console.
-            // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
-            Console.WriteLine("Hello World!");
+            int a = 100;
+            int b = 60;
+            int sum = a + b;
+            Console.WriteLine(sum);
             Console.ReadKey();
 
-            // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
         }
     }
 }
-
 
