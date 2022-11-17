@@ -38,9 +38,30 @@ using System.Threading.Tasks;
 //}
 
 ////////////////////////Add two numbers that user enter///////////////////////////
-namespace MyExercises
+//namespace MyExercises
+//{
+//    class sum
+//    {
+//        static void Main()
+//        {
+//            //int number1;
+//            //int number2;
+//            Console.WriteLine("Please enter the number1");
+//            int number1 = Convert.ToInt32(Console.ReadLine());
+//            Console.WriteLine("Please enter the number2");
+//            int number2 = Convert.ToInt32(Console.ReadLine());
+//            int result = number1 + number2;
+//            Console.WriteLine("sum of two numbers:" + result.ToString());
+//            Console.ReadKey();
+//        }
+//    }
+//}
+
+
+////////////////////////average of five numbers that user enter///////////////////////////
+namespace C_Sharp_Exercises
 {
-    class sum
+    class average
     {
         static void Main()
         {
@@ -50,8 +71,14 @@ namespace MyExercises
             int number1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Please enter the number2");
             int number2 = Convert.ToInt32(Console.ReadLine());
-            int result = number1 + number2;
-            Console.WriteLine("sum of two numbers:" + result.ToString());
+            Console.WriteLine("Please enter the number3");
+            int number3 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Please enter the number4");
+            int number4 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Please enter the number5");
+            int number5 = Convert.ToInt32(Console.ReadLine());
+            int average = (number1 + number2 + number3 + number4 + number5) / 5;
+            Console.WriteLine("average of five numbers:" + average.ToString());
             Console.ReadKey();
         }
     }
