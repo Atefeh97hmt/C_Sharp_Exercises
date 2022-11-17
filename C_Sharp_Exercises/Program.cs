@@ -59,27 +59,60 @@ using System.Threading.Tasks;
 
 
 ////////////////////////average of five numbers that user enter///////////////////////////
+//namespace C_Sharp_Exercises
+//{
+
+//    class average
+//    {
+//        static void Main()
+//        {
+//            //int number1;
+//            //int number2;
+//            Console.WriteLine("Please enter the number1");
+//            int number1 = Convert.ToInt32(Console.ReadLine());
+//            Console.WriteLine("Please enter the number2");
+//            int number2 = Convert.ToInt32(Console.ReadLine());
+//            Console.WriteLine("Please enter the number3");
+//            int number3 = Convert.ToInt32(Console.ReadLine());
+//            Console.WriteLine("Please enter the number4");
+//            int number4 = Convert.ToInt32(Console.ReadLine());
+//            Console.WriteLine("Please enter the number5");
+//            int number5 = Convert.ToInt32(Console.ReadLine());
+//            int average = (number1 + number2 + number3 + number4 + number5) / 5;
+//            Console.WriteLine("average of five numbers:" + average.ToString());
+//            Console.ReadKey();
+//        }
+//    }
+//}
+
+////////////////////////average of five numbers that user enter with loop///////////////////////////
 namespace C_Sharp_Exercises
 {
+
+
     class average
     {
         static void Main()
         {
-            //int number1;
-            //int number2;
-            Console.WriteLine("Please enter the number1");
-            int number1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Please enter the number2");
-            int number2 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Please enter the number3");
-            int number3 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Please enter the number4");
-            int number4 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Please enter the number5");
-            int number5 = Convert.ToInt32(Console.ReadLine());
-            int average = (number1 + number2 + number3 + number4 + number5) / 5;
-            Console.WriteLine("average of five numbers:" + average.ToString());
+
+            int[] number = new int[5];
+            for( int i=0; i < number.Length; i++)
+            {
+                Console.WriteLine("please enter a number:");
+                number[i] = Convert.ToInt32(Console.ReadLine());
+            }
+
+            int sum = 0;
+            for (int i = 0; i < number.Length; ++i)
+            {
+                sum += number[i];
+            }
+
+            Console.WriteLine("average of five numbers is: {0}", sum / number.Length);
             Console.ReadKey();
+
         }
+
     }
+
 }
